@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_centerHorizontal="true"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/nano_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/buttonPlaceholder">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spotify Streamer"
+            android:id="@+id/button"
+            android:background="#F08C35"
+            android:onClick="onMenuBtnClickHandler"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCORES APP"
+            android:background="#F08C35"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button2"
+            android:onClick="onMenuBtnClickHandler"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIBRARY APP"
+            android:background="#F08C35"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button3"
+            android:onClick="onMenuBtnClickHandler"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUILD IT BIGGER"
+            android:background="#F08C35"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button4"
+            android:onClick="onMenuBtnClickHandler"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BACON READER"
+            android:background="#F08C35"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button5"
+            android:onClick="onMenuBtnClickHandler"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAPSTONE: MY OWN APP"
+            android:background="#F08C35"
+            android:layout_marginTop="2dp"
+            android:id="@+id/button6"
+            android:onClick="onMenuBtnClickHandler"/>
+    </LinearLayout>
+
+</RelativeLayout>
